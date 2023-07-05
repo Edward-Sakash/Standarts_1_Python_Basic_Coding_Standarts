@@ -18,11 +18,13 @@ fix them and run it again until it produces no error.
 # Solution
 import random
 
+
 def check():
     luck = random.random()  # Generate a random number between 0 and 1
     if luck < 0.5:
         print("Sorry")
     else:
         print("Congratulations")
+
 
 check()

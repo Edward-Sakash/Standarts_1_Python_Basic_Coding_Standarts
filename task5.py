@@ -15,9 +15,10 @@ fix them and run it again until it produces no error.
 
 # Solution
 
-def greet(first, last):
+
+def greet(first="John", last="Dou"):
     print(f"Hello, {first} {last}!")
 
 
-greet(first = "Edward", last = "Superhero")
-greet(first = "Elton", last = "Presley")
+greet(first="Edward", last="Superhero")
+greet(first="Elton", last="Presley")

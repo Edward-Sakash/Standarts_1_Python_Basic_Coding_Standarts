@@ -1,7 +1,8 @@
 def my_custom_validation_function(
     one, two, three, four, five, six, seven, eight, nine, ten
 ):
-    if all([one, two, three, four, five]) and not any([six, seven, eight, nine, ten]):
+    if all([one, two, three, four, five]) and\
+            not any([six, seven, eight, nine, ten]):
         print("ok")
 
 

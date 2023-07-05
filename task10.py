@@ -1,13 +1,11 @@
-# task10.py
-
-
 def my_custom_validation_function(
     one, two, three, four, five, six, seven, eight, nine, ten
 ):
     # Checking arguments before the conditional
-    if all([one, two, three, four, five]) and not any([six, seven, eight, nine, ten]):
-        print("ok")  # arguments are ok
-
+    if all([one, two, three, four, five]) and\
+            not any([six, seven, eight, nine, ten]):
+        print("ok")
+    
 
 my_custom_validation_function(
     one=True,

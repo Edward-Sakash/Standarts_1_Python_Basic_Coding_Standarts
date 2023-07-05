@@ -4,3 +4,7 @@ def first():
 
 def last():
     print("last")
+
+
+first()
+last()
